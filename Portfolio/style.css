@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* CSS variables */
+:root{
+    --navbar-height: 59px;
+}
+#navbar{
+    background-color: rgb(1, 6, 46);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+#navbar a{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-family: 'Epilogue',sans-serif;
+    font-size: larger;
+}
+#navbar a span{
+    padding: 10px 10px;
+}
+#navbar a :hover{
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(178, 220, 240);
+    border-radius: 5px;
+}
+.intro{
+    background-color: rgb(228, 244, 250);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+}
