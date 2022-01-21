@@ -1,6 +1,8 @@
 *{
     margin:0;
     padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 /* CSS variables */
@@ -19,7 +21,6 @@
     color: rgb(255, 255, 255);
     margin-left: 50px;
     padding: 15px 30px;
-    text-decoration: none;
     font-family: 'Epilogue',sans-serif;
     font-size: larger;
 }
@@ -32,12 +33,46 @@
     background-color: rgb(178, 220, 240);
     border-radius: 5px;
 }
+#home{
+    display: flex;
+}
 .intro{
     background-color: rgb(228, 244, 250);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 50vw;
-    justify-content: center;
+    font-family: 'Concert One';
     text-align: center;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+}
+.img_container{
+    height: 700px;
+    width: 40vw;
+    background-color: rgb(24, 45, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    height:400px;
+    width: 400px;
+    border: 2px solid white;
+    padding: 2px;
+    border-radius: 50%;
+    border-style: dashed;
+}
+.button{
+    padding:30px 70px;
+    position: absolute;
+}
+.btn{
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: 'Epilogue',sans-serif;
+    cursor: pointer;
+    background-color: rgb(24, 45, 70);
+}
+.btn a{
+    color:azure
 }
