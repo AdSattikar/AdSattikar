@@ -36,14 +36,18 @@
 #home{
     display: flex;
 }
+
 .intro{
     background-color: rgb(228, 244, 250);
+    font-size: 25px;
     font-family: 'Concert One';
-    text-align: center;
-    padding-top: 200px;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    padding: 200px 30px;
     width: 60vw;
+}
+#intro_text{
+    color: rgb(148, 0, 0);
+    font-size: 60px;
 }
 .img_container{
     height: 700px;
@@ -54,12 +58,35 @@
     justify-content: center;
 }
 #image{
+    margin: auto;
     height:400px;
     width: 400px;
     border: 2px solid white;
-    padding: 2px;
-    border-radius: 50%;
+    padding: 4px;
+    border-radius: 50px;
     border-style: dashed;
+}
+.img_container::after
+{
+    content: '';
+    position: relative;
+    height: 107px;
+    width: 100px;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    right: 60px;
+    bottom: -194px;
+}
+.img_container::before
+{
+    content: '';
+    position: relative;
+    height: 107px;
+    width: 100px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    left: 60px;
+    top: -194px;
 }
 .button{
     padding:30px 70px;
@@ -75,4 +102,21 @@
 }
 .btn a{
     color:azure
+}
+#about{
+    font-family: 'Epilogue',sans-serif;
+    font-size: larger;
+    margin-top: 10px;
+    background-color: rgb(250, 250, 250);
+}
+.about_container{
+    font-size: 25px;
+    background-color: rgb(90, 90, 90);
+    padding: 20px 30px;
+}
+.info{
+    padding-left: 20px;
+    padding-top: 20px;
+    height:500px;
+    background-color: aquamarine;
 }
