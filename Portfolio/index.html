@@ -12,14 +12,14 @@
 <body>
     <nav id="navbar">
      <a href="index.html"><span><i class="fa fa-home"></i>  Home</span></a>
-     <a href="about.html"><span><i class="fa fa-user"></i>  About</span></a>
+     <a href="#about"><span><i class="fa fa-user"></i>  About</span></a>
      <a href="portfolio.html"><span><i class="fa fa-briefcase"></i>  Portfolio</span></a>
      <a href="contact.html"><span><i class="fa fa-comments"></i>  Contact</span></a>
     </nav>
-    <section id ="home">
+    <section id ="home"class="hidden">
         <div class="intro">
-            <h1 class="intro_text">Hey! I'm Adnan Sattikar</h1>
-            <h2>2nd Year Engineering Student at VIT Vellore.<br>I`m a Frontend Developer and currently exploring ReactJS as a framework...</h2>
+            <h1 id="intro_text">Hey! I'm Adnan Sattikar</h1>
+            <h2>2nd Year Engineering Student pursuing Integrated Mtech in CSE at VIT Vellore.<br>I`m a Frontend Developer and currently exploring ReactJS as a framework...</h2>
             <div class="button">
                 <button class="btn" type="submit"><a href="../Resume.pdf" target="_blank">Download CV</a></button>
             </div>
@@ -27,7 +27,14 @@
         <div class="img_container">
             <img id="image" src="img/3.webp" alt="My Pic">
         </div>
-        
+    </section>
+    <section id="about">
+        <div class="about_container">
+            About Me
+        </div>
+        <div class="info">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quidem, hic ipsum non molestias similique consequuntur nam dignissimos. Eveniet autem error ad neque deserunt, fugit quam. Nemo voluptatum alias delectus, unde velit eum fuga voluptate eos repellendus illum odit amet, veniam suscipit saepe quis assumenda nesciunt.</p>
+        </div>
     </section>      
    
    
