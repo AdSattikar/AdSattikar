@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Virtusa Mini Project**
 
-- 🌱 I’m currently learning **Javascript,**
+- 🌱 I’m currently learning **Java**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
