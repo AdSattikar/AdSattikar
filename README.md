@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Cricket Management System (SE Project)**
 
-- 🌱 I’m currently learning **Java**
+- 🌱 I’m currently learning **Full Stack Web Development**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
