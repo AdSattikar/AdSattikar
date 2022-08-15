@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Adnan Sattikar</h1>
-<h3 align="center">2nd year Engineering student pursuing Computer Science and Engineering at VIT Vellore</h3>
+<h3 align="center">3rd year Engineering student pursuing Computer Science and Engineering at VIT Vellore</h3>
 
-- 🔭 I’m currently working on **Virtusa Mini Project**
+- 🔭 I’m currently working on **Cricket Management System (SE Project)**
 
 - 🌱 I’m currently learning **Java**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
 
-- 🤝 I’m looking for help with **Javascript and ReactJS**
+- 🤝 I’m looking for help with **ReactJS**
 
 - 📫 How to reach me **adnan.sattikar2001@gmail.com**
 
