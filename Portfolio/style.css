@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Staatliches&family=Titan+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima&family=Cutive&family=Special+Elite&family=Trispace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -343,9 +344,9 @@ section{
 }
 #portfolio .content .box{
     box-sizing: border-box;
-    background: linear-gradient(rgb(77, 114, 198),white);
-    height: 50rem;
-    width: 35rem;
+    background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
+    height: 100%;
+    width: 35%;
    margin: 20px;
    /* border-radius: 8px; */
    /* border: 2px solid black; */
@@ -359,10 +360,25 @@ section{
 }
 #portfolio .content .box h3{
     color: #fff;
+    text-decoration: underline;
+    font-family: 'Silkscreen';
+}
+#portfolio .content .box .stack{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2';
 }
 #portfolio .content .box .text{
+    font-weight: bold;
+    color: #fff;
     padding: 4px 4px;
     text-align: center;
+}
+#portfolio .content .box .proj-img img{
+    height: 200px;
+    width: 300px;
+    border-radius: 4px;
+    border: 5px solid white;
 }
 #portfolio .sec-head{
     text-align: center;
@@ -382,7 +398,8 @@ section{
     margin: 2rem;
     height: 4rem;
     font-family: 'Baloo Bhai 2';
-    background-color: rgb(248, 175, 112)
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 #blog .sec-head{
     text-align: center;
