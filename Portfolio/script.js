@@ -21,3 +21,20 @@ document.querySelectorAll('a').forEach(links =>{
     }
 
 });
+
+let intro_text = document.getElementById('intro_text');
+txt = intro_text.innerText;
+intro_text.innerHTML = "";
+let i=0
+function typ(id,text){
+    if(i<text.length){
+        id.innerHTML +=text.charAt(i)
+        i++;
+        setTimeout(()=>typ(id,text),50)
+    }
+}
+typ(intro_text,txt);
+
+let about = document.getElementById('about').firstElementChild
+let portfolio = document.getElementById('portfolio').firstElementChild
+let blog = document.getElementById('blog').firstElementChild
