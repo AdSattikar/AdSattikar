@@ -5,11 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima&family=Cutive&family=Special+Elite&family=Trispace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 *{
     margin:0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    
 }
 
 /* CSS variables */
@@ -142,7 +145,7 @@ section{
 .img_container{
     height: 100vh;
     width: 40vw;
-    background-color: rgb(24, 45, 70);
+    background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,7 +348,7 @@ section{
 #portfolio .content .box{
     box-sizing: border-box;
     background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
-    height: 100%;
+    height: auto;
     width: 35%;
    margin: 20px;
    /* border-radius: 8px; */
@@ -363,10 +366,12 @@ section{
     text-decoration: underline;
     font-family: 'Silkscreen';
 }
+
 #portfolio .content .box .stack{
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-family: 'Baloo Bhai 2';
+    font-family: 'Acme';
+    word-spacing: 5px;
 }
 #portfolio .content .box .text{
     font-weight: bold;
@@ -375,6 +380,7 @@ section{
     text-align: center;
 }
 #portfolio .content .box .proj-img img{
+    margin-top: 20px;
     height: 200px;
     width: 300px;
     border-radius: 4px;
@@ -394,12 +400,16 @@ section{
     align-items: flex-end;
 }
 #portfolio .proj-btn .btn{
+    display: flex;
     width: 7rem;
     margin: 2rem;
     height: 4rem;
     font-family: 'Baloo Bhai 2';
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(236, 160, 160);
     color:rgb(0, 0, 0);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
 }
 #blog .sec-head{
     text-align: center;
@@ -409,7 +419,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: aliceblue;
+    background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
 }
 
 #blog .box-container .box{
@@ -473,7 +483,7 @@ section{
     font-size: 1.5rem;
 }
 #contact{
-    background-color: antiquewhite;
+    background-color: rgb(210, 227, 239);
 }
 #contact-form{
     margin: auto;
