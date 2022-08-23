@@ -21,7 +21,8 @@ document.querySelectorAll('a').forEach(links =>{
     }
 
 });
-
+const html = document.querySelector('html')
+const check = document.querySelector('#checkbox')
 let intro_text = document.getElementById('intro_text');
 txt = intro_text.innerText;
 intro_text.innerHTML = "";
@@ -30,7 +31,7 @@ function typ(id,text){
     if(i<text.length){
         id.innerHTML +=text.charAt(i)
         i++;
-        setTimeout(()=>typ(id,text),50)
+        setTimeout(()=>typ(id,text),100)
     }
 }
 typ(intro_text,txt);
