@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Staatliches&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima&family=Cutive&family=Special+Elite&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+#home{
+    display: flex;
+}
+
+.intro{
+    background-color: rgb(228, 244, 250);
+    font-size: 25px;
+    font-family: 'Concert One';
+    text-align: left;
+    padding: 200px 30px;
+    width: 60vw;
+    height: 100vh;
+}
+#intro_text{
+    color: rgb(148, 0, 0);
+    font-size: 60px;
+}
+.img_container{
+    height: 100vh;
+    width: 40vw;
+    background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    margin: auto;
+    height:400px;
+    width: 350px;
+    border: 2px solid white;
+    padding: 4px;
+    border-radius: 50px;
+}
+.img_container::after
+{
+    content: '';
+    position: relative;
+    height: 107px;
+    width: 100px;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    right: 60px;
+    bottom: -194px;
+}
+.img_container::before
+{
+    content: '';
+    position: relative;
+    height: 107px;
+    width: 100px;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    left: 60px;
+    top: -194px;
+}
+.button{
+    padding:30px 70px;
+    position: absolute;
+}
+.btn{
+    width: 20rem;
+    margin: auto;
+    padding:10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: 'Cutive',sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: rgb(168, 195, 227);
+}
+.btn a{
+    color:rgb(0, 0, 0)
+}

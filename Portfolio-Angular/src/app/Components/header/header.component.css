@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Staatliches&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arima&family=Cutive&family=Special+Elite&family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+#navbar{
+    background-color: rgb(1, 6, 46);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+#navbar a{
+    box-sizing: border-box;
+    color: var(--primary-bg-color);
+    margin-left: 50px;
+    padding: 15px 30px;
+    font-family: 'Epilogue',sans-serif;
+    font-size: larger;
+}
+#navbar a span{
+    padding: 10px 10px;
+}
+#navbar a :hover{
+    cursor:pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(178, 220, 240);
+    border-radius: 5px;
+}
