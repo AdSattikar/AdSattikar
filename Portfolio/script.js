@@ -21,8 +21,16 @@ document.querySelectorAll('a').forEach(links => {
     }
 
 });
-const html = document.querySelector('html')
-const check = document.querySelector('#checkbox')
+
+// const body = document.querySelector('body');
+// const darkToggle = document.querySelector('#dark-toggle');
+
+// darkToggle.addEventListener('click', () => {
+//   body.classList.toggle('dark');
+// });
+
+// const html = document.querySelector('html')
+// const check = document.querySelector('#checkbox')
 let intro_text = document.getElementById('intro_text');
 txt = intro_text.innerText;
 intro_text.innerHTML = "";

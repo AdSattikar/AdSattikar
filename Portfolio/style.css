@@ -26,7 +26,17 @@
     --check: #000;
     --ball:#f2eee3;
 }
-
+/* Dark theme */
+.dark {
+    --main-color: #fff;
+    --primary-bg-color: #222;
+    --secondary-bg-color: #333;
+    --primary-text-color: #fff;
+    --secondary-text-color: #bbb;
+    --check: #fff;
+    --ball: #444;
+  }
+  
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -53,48 +63,7 @@ section{
     padding:1rem;
     padding:0 8%;
 }
-/* .dark{
-    --main-color:rgb(8, 46, 63);
-    --primary-bg-color:#fff;
-    --secondary-bg-color:#eee;
-    --primary-text-color:rgb(14, 13, 13);
-    --secondary-text-color:rgb(26, 23, 23);
-    --check: #000;
-    --ball:#f2eee3;
-}
-.dark-mode{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: var(--main-color);
-    transition: .5s;
-}
-.checkbox:checked+.label .ball{
-    transform: translateX(24px);
-}
-.checkbox{
-    opacity: 0;
-    position: absolute;
-}
-.label{
-    width: 50px;
-    height: 26px;
-    background: var(--check);
-    border-radius: 50px;
-    padding: 5px;
-    position: relative;
-}
-.ball{
-    position: relative;
-    top:2px;
-    left:2px;
-    height: 22px;
-    background: var(--ball);
-    border-radius: 50%;
-    transition: transform 0.2s linear;
-} */
+
 /* Custom Cursor */
 .cursor-1{
     position: absolute;
@@ -147,6 +116,7 @@ section{
 }
 
 #navbar{
+
     background-color: rgb(1, 6, 46);
     padding: 0px;
     display: flex;
@@ -198,8 +168,8 @@ section{
 #image{
     margin: auto;
     height:400px;
-    width: 350px;
-    border: 2px solid white;
+    width: 275px;
+    /* border: 2px solid white; */
     padding: 4px;
     border-radius: 50px;
 }
@@ -244,23 +214,7 @@ section{
 .btn a{
     color:rgb(0, 0, 0)
 }
-/* #about{
-    font-family: 'Epilogue',sans-serif;
-    font-size: larger;
-    margin-top: 10px;
-    background-color: rgb(250, 250, 250);
-}
-.about_container{
-    font-size: 25px;
-    background-color: rgb(90, 90, 90);
-    padding: 20px 30px;
-}
-.info{
-    padding-left: 20px;
-    padding-top: 20px;
-    height:500px;
-    background-color: aquamarine;
-} */
+
 #about-image{
     height: 400px;
     width: 200px;
@@ -286,6 +240,9 @@ section{
 }
 
 .about .row-1 .content{
+    padding-left: 20px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
     box-shadow:  10px 20px 40px rgb(11, 36, 83);
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -388,13 +345,14 @@ section{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 #portfolio .content .box{
     box-sizing: border-box;
     background: linear-gradient(rgb(1, 20, 65),rgb(175, 34, 34));
     height: auto;
-    width: 35%;
+    width: 30%;
    margin: 20px;
    /* border-radius: 8px; */
    /* border: 2px solid black; */
@@ -408,6 +366,7 @@ section{
 }
 #portfolio .content .box h3{
     color: #fff;
+    text-align: center;
     text-decoration: underline;
     font-family: 'Silkscreen';
 }
@@ -415,6 +374,7 @@ section{
 #portfolio .content .box .stack{
     color: rgb(255, 255, 255);
     text-decoration: none;
+    text-align: centre;
     font-family: 'Acme';
     word-spacing: 5px;
 }
@@ -427,7 +387,7 @@ section{
 #portfolio .content .box .proj-img img{
     margin-top: 20px;
     height: 200px;
-    width: 300px;
+    width: 290px;
     border-radius: 4px;
     border: 5px solid white;
 }
@@ -456,7 +416,7 @@ section{
     justify-content: center;
     align-items: center;
 }
-#blog .sec-head{
+/* #blog .sec-head{
     text-align: center;
 }
 #blog .box-container{
@@ -526,7 +486,7 @@ section{
 .blog-btn{
     font-family: 'Baloo Bhai 2';
     font-size: 1.5rem;
-}
+} */
 #contact{
     background-color: rgb(210, 227, 239);
 }
@@ -565,37 +525,4 @@ section{
 .contact .follow a:hover{
     color:var(--main-color);
     font-size: 3.75rem;
-}
-
-@media (max-width:991px){
-
-    html{
-        font-size: 55%;
-    }
-    
-    body{
-        padding: 0;
-    }
-
-    #navbar{
-        display: initial;
-    }
-
-    .cursor-1,
-    .cursor-2{
-        display: none;
-    }
-
-}
-
-@media (max-width:450px){
-
-    html{
-        font-size: 50%;
-    }
-
-    .experience .box-container .box{
-        padding-right: 0;
-    }
-
 }
