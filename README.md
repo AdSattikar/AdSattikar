@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Adnan Sattikar</h1>
 <h3 align="center">3rd year Engineering student pursuing Computer Science and Engineering at VIT Vellore</h3>
 
-- 🔭 I’m currently working on **Cricket Management System (SE Project)**
+- 🔭 I’m currently working on **Java WebApplications**
 
 - 🌱 I’m currently learning **Full Stack Web Development**
 
 - 👯 I’m looking to collaborate on **Open Source Projects**
+
+- 👨‍💻 Portfolio [https://adsattikar.github.io/](https://adsattikar.github.io/)
 
 - 🤝 I’m looking for help with **ReactJS**
 
